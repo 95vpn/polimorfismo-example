@@ -8,6 +8,7 @@ namespace polimorfismo_example
 {
     public class Mamiferos
     {
+        private String nombreSerVivo;
         public Mamiferos(String nombre)
         {
             nombreSerVivo = nombre;
@@ -21,6 +22,11 @@ namespace polimorfismo_example
         public void cuidarCrias()
         {
             Console.WriteLine("Cuido de mis crias hasta que se valgan ");
+        }
+
+        public void getNombre()
+        {
+            Console.WriteLine("El nombre del ser vivo es: " + nombreSerVivo);
         }
 
     }

@@ -13,6 +13,10 @@ namespace polimorfismo_example
 
         }
         
+        public void pensar()
+        {
+            Console.WriteLine("Pensamiento instintivo avanzado");
+        }
         public void trepar()
         {
             Console.WriteLine("Soy capaz de trepar");

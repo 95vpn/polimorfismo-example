@@ -19,6 +19,11 @@ namespace polimorfismo_example
             Console.WriteLine("Soy capaz de respirar");
         }
 
+        public void pensar()
+        {
+            Console.WriteLine("pensamiento basico instintivo");
+        }
+
         public void cuidarCrias()
         {
             Console.WriteLine("Cuido de mis crias hasta que se valgan ");

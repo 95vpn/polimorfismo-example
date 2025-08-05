@@ -10,6 +10,17 @@ namespace polimorfismo_example
     {
         static void Main(string[] args)
         {
+            Caballo miBabieca = new Caballo("Babieca");
+            Humano miJuan = new Humano("Juan");
+            Gorila miCopito = new Gorila("Copito");
+
+            Mamiferos[] almacenAnimales = new Mamiferos[3];
+
+            almacenAnimales[0] = miBabieca;
+            almacenAnimales[1] = miJuan;
+            almacenAnimales[2] = miCopito;
+
+            almacenAnimales[1].getNombre();
         }
     }
 }

@@ -13,7 +13,7 @@ namespace polimorfismo_example
 
         }
         
-        public void pensar()
+        public override void pensar()
         {
             Console.WriteLine("Pensamiento instintivo avanzado");
         }

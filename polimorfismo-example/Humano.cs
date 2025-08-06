@@ -13,7 +13,7 @@ namespace polimorfismo_example
 
         }
 
-        public void pensar()
+        public override void pensar()
         {
             Console.WriteLine("Soy capaz de penzar");
         }

@@ -20,7 +20,12 @@ namespace polimorfismo_example
             almacenAnimales[1] = miJuan;
             almacenAnimales[2] = miCopito;
 
-            almacenAnimales[1].getNombre();
+            //almacenAnimales[1].getNombre();
+
+            for (int i = 0; i < 3; i++)
+            {
+                almacenAnimales[i].pensar();
+            }
         }
     }
 }

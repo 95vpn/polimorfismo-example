@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ballena.cs" />
     <Compile Include="Caballo.cs" />
     <Compile Include="Gorila.cs" />
     <Compile Include="Humano.cs" />
+    <Compile Include="IMamiferosTerrrestres.cs" />
     <Compile Include="Mamiferos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

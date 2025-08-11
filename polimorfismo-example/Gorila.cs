@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace polimorfismo_example
 {
-    public class Gorila : Mamiferos
+    public class Gorila : Mamiferos, IMamiferosTerrrestres
     {
         public Gorila(string nombreGorila) : base(nombreGorila)
         {
@@ -20,6 +20,11 @@ namespace polimorfismo_example
         public void trepar()
         {
             Console.WriteLine("Soy capaz de trepar");
+        }
+
+        public int numeroPatas()
+        {
+            return 2;
         }
     }
 }

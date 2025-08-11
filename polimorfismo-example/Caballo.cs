@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace polimorfismo_example
 {
-    public class Caballo : Mamiferos
+    public class Caballo : Mamiferos, IMamiferosTerrrestres
     {
         public Caballo(String nombreCaballo) : base(nombreCaballo)
         {
@@ -16,6 +16,11 @@ namespace polimorfismo_example
         public void galopar()
         {
             Console.WriteLine("Soy capaz de galopar");
+        }
+
+        public int numeroPatas()
+        {
+            return 4;
         }
     }
 }

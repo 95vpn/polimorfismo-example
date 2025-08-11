@@ -22,10 +22,17 @@ namespace polimorfismo_example
 
             //almacenAnimales[1].getNombre();
 
+            /*
             for (int i = 0; i < 3; i++)
             {
                 almacenAnimales[i].pensar();
             }
+            */
+
+            Ballena miWally = new Ballena("Wally");
+            miWally.Nadar();
+
+            Console.WriteLine("Numero de para de babieca" + miBabieca.numeroPatas());
         }
     }
 }

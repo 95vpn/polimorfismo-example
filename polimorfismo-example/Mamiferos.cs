@@ -34,5 +34,11 @@ namespace polimorfismo_example
             Console.WriteLine("El nombre del ser vivo es: " + nombreSerVivo);
         }
 
+
+        public int numeroPatas()
+        {
+            return numeroPatas();
+        }
+
     }
 }

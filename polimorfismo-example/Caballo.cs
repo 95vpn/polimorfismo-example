@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace polimorfismo_example
 {
-    public class Caballo : Mamiferos, IMamiferosTerrrestres
+    public class Caballo : Mamiferos, IMamiferosTerrrestres, IAnimalesYDeportes
     {
         public Caballo(String nombreCaballo) : base(nombreCaballo)
         {
@@ -21,6 +21,10 @@ namespace polimorfismo_example
         public int numeroPatas()
         {
             return 4;
+        }
+        public string tipoDeportes()
+        {
+
         }
     }
 }

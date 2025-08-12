@@ -47,6 +47,7 @@
     <Compile Include="Caballo.cs" />
     <Compile Include="Gorila.cs" />
     <Compile Include="Humano.cs" />
+    <Compile Include="IAnimalesYDeportes.cs" />
     <Compile Include="IMamiferosTerrrestres.cs" />
     <Compile Include="Mamiferos.cs" />
     <Compile Include="Program.cs" />

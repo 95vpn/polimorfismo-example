@@ -49,6 +49,7 @@
     <Compile Include="Humano.cs" />
     <Compile Include="IAnimalesYDeportes.cs" />
     <Compile Include="IMamiferosTerrrestres.cs" />
+    <Compile Include="ISaltoConPatas.cs" />
     <Compile Include="Mamiferos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace polimorfismo_example
 {
-    public interface IAnimalesYDeportes
+    public interface ISaltoConPatas
     {
-        string tipoDeportes();
-
-        Boolean esOlimpico();
+        int numeroPatas();
     }
 }

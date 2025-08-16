@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace polimorfismo_example
 {
-    public class Mamiferos
+    public class Mamiferos : Animales 
     {
         private String nombreSerVivo;
         public Mamiferos(String nombre)
@@ -14,10 +14,7 @@ namespace polimorfismo_example
             nombreSerVivo = nombre;
         }
 
-        public void respirar()
-        {
-            Console.WriteLine("Soy capaz de respirar");
-        }
+        
 
         public virtual void pensar()
         {
@@ -29,9 +26,9 @@ namespace polimorfismo_example
             Console.WriteLine("Cuido de mis crias hasta que se valgan ");
         }
 
-        public void getNombre()
+        public override void getNombre()
         {
-            Console.WriteLine("El nombre del ser vivo es: " + nombreSerVivo);
+            Console.WriteLine("El nombre del mamifero es: " + nombreSerVivo);
         }
 
 

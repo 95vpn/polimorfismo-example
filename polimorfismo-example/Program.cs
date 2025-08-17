@@ -10,6 +10,7 @@ namespace polimorfismo_example
     {
         static void Main(string[] args)
         {
+            /*
             Caballo miBabieca = new Caballo("Babieca");
             IMamiferosTerrrestres ImiBabieca = miBabieca;
             ISaltoConPatas Ibabieca = miBabieca;
@@ -30,7 +31,7 @@ namespace polimorfismo_example
                 almacenAnimales[i].pensar();
             }
             */
-
+            /*
             Ballena miWally = new Ballena("Wally");
             miWally.Nadar();
 
@@ -38,6 +39,17 @@ namespace polimorfismo_example
 
             Console.WriteLine("patas con salto de babieca" + Ibabieca.numeroPatas());
 
+            */
+
+            Lagartija Juancho = new Lagartija("Juancho");
+
+            Juancho.respirar();
+            Juancho.getNombre();
+
+            Humano Juan = new Humano("Juan");
+
+            Juan.respirar();
+            Juan.getNombre();
         }
     }
 }

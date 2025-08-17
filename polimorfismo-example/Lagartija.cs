@@ -8,6 +8,10 @@ namespace polimorfismo_example
 {
     public class Lagartija : Animales
     {
+        public Lagartija(String nombre) 
+        {
+            nombreReptil = nombre;
+        }
         public override void getNombre()
         {
             Console.WriteLine("El nombre del reptil es: " + nombreReptil);

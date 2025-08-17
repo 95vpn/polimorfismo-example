@@ -8,6 +8,7 @@ namespace polimorfismo_example
 {
     public abstract class Animales
     {
+
         public void respirar()
         {
             Console.WriteLine("Soy capaz de respirar");

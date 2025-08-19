@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adolescente.cs" />
     <Compile Include="Animales.cs" />
     <Compile Include="Ballena.cs" />
     <Compile Include="Caballo.cs" />
+    <Compile Include="Chimpance.cs" />
     <Compile Include="Gorila.cs" />
     <Compile Include="Humano.cs" />
     <Compile Include="IAnimalesYDeportes.cs" />
